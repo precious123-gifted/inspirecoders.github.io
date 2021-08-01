@@ -1,0 +1,667 @@
+.nav {
+  margin-bottom: 6px;
+  height: 450px;
+  padding-top: 2px;
+  padding-bottom: 70px;
+  width: 85vw;
+  background-color: white;
+}
+
+.navigation {
+  .links {
+    visibility: hidden;
+  }
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+
+  justify-content: space-between;
+  align-items: center;
+  height: 14%;
+
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #000000;
+  }
+
+  .menu {
+    margin-top: -14vh;
+  }
+  .IC {
+    margin-top: -14vh;
+  }
+}
+
+.showhead {
+  display: flex;
+
+  align-items: center;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+}
+.tNb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headerImage {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  margin-right: -600px;
+}
+.header {
+  font-family: "Montserrat", sans-serif;
+  height: fit-content;
+  margin-bottom: 8%;
+
+  display: flex;
+  justify-content: center;
+
+  font-weight: bolder;
+  letter-spacing: 2.4px;
+  span {
+    margin-left: -300vh;
+    font-size: 170%;
+    line-height: 130%;
+    font-weight: 800px;
+  }
+  .WYL {
+    width: 80vw;
+  }
+}
+
+.headerWriteup {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  height: 20%;
+  margin-bottom: 15%;
+
+  span {
+    line-height: 115%;
+    word-spacing: 4.5px;
+
+    font-size: 110%;
+  }
+  .ICO {
+    width: 80vw;
+    margin-right: -300vh;
+  }
+}
+
+.button {
+  opacity: 0;
+  margin-top: -12vh;
+  width: 90%;
+  height: 60px;
+  background-color: darken(#68bcfd, 10);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+
+  word-spacing: 1vw;
+
+  span {
+    font-weight: bold;
+    letter-spacing: 0.3vw;
+  }
+
+  &:hover {
+    background-color: rgb(73, 73, 73);
+    color: #68bcfd;
+  }
+}
+
+.career-brief {
+  width: 80vw;
+  height: fit-content;
+  padding-bottom: 70px;
+  background-color: darken(#e4c4ff, 4);
+  border-radius: 3vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8vh;
+
+  h4 {
+    margin-top: 70px;
+    width: 80%;
+    font-size: 120%;
+    line-height: 150%;
+    font-weight: 700px;
+  }
+  p {
+    font-weight: 400px;
+    font-size: 120%;
+    margin-top: 10%;
+    line-height: 210%;
+    letter-spacing: 0.2vw;
+    width: 70%;
+    text-align: center;
+  }
+  .vv {
+    display: flex;
+    justify-content: center;
+
+    .brief-vector {
+      margin-top: 10%;
+
+      visibility: hidden;
+      position: absolute;
+    }
+    .briefvector {
+      margin-top: 10%;
+      width: 90%;
+      height: 20%;
+    }
+  }
+}
+
+.forum-div {
+  margin-top: 3vh;
+  height: fit-content;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+
+  .forumH {
+    align-self: center;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    margin-left: -90vh;
+    margin-bottom: 4px;
+    h3 {
+      margin-bottom: 3vh;
+      align-self: center;
+    }
+    .text-writeup {
+      width: 80vw;
+      text-align: center;
+      color: #4b5d68;
+      line-height: 22px;
+      letter-spacing: 0.3vw;
+      font-size: 16px;
+      word-spacing: 2px;
+      margin-bottom: 80px;
+      align-self: center;
+    }
+  }
+
+  .website-design {
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+    margin-bottom: 95px;
+    margin-left: -100vh;
+
+    .background {
+      position: absolute;
+
+      height: 100%;
+      width: 83%;
+      margin-left: 14vw;
+    }
+    .content {
+      height: 455px;
+      padding-bottom: 3vh;
+    }
+    .svgNwriteup {
+      position: relative;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: row;
+
+      .svg {
+        margin-top: 40px;
+        width: 150px;
+        .webdesign-vector {
+          height: 200px;
+          max-width: 100%;
+        }
+      }
+
+      .writeup {
+        width: 160px;
+        .websiteText {
+          font-size: 150%;
+          color: #212353;
+        }
+        p {
+          margin-top: 17px;
+          color: #4b5d68;
+
+          letter-spacing: 0.2vw;
+          font-size: 100%;
+
+          margin-bottom: 16px;
+        }
+
+        .coursesSmallDiv {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 55vw; //305
+          margin-left: -12%;
+
+          div {
+            display: flex;
+            align-items: center;
+            border-radius: 24px;
+            color: #6e6f8b;
+            margin-right: 3vw;
+            margin-bottom: 5vw;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 12px;
+            height: 6vw;
+            padding-right: 2vw;
+            padding-left: 2vw;
+            background-color: rgba(110, 111, 139, 0.2);
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .instructorNameAndRating {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+
+      .line {
+        position: relative;
+      }
+      .profile-rating {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 40px;
+        margin-left: 18vw;
+        margin-top: 2.8%;
+        .DisplayImage {
+          height: 100%;
+          width: 10%;
+        }
+        .nameAndStar {
+          margin-left: 4px;
+          margin-right: 10px;
+          .name {
+            margin-bottom: 6px;
+          }
+          .number {
+            color: rgba(4, 237, 204, 1);
+            margin-left: 5%;
+            font-style: normal;
+          }
+        }
+      }
+      .progressBar {
+        margin-left: 5px;
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+
+        .videoIcon {
+          display: flex;
+          align-items: center;
+          margin-top: 2%;
+          margin-bottom: 5%;
+          .videoText {
+            font-size: 2vw;
+            word-spacing: 3%;
+            margin-left: 2%;
+            color: rgba(110, 111, 139, 1);
+          }
+        }
+
+        .progression {
+          display: flex;
+          flex-direction: column;
+          width: 90%;
+          .slots {
+            font-size: 2vw;
+            margin-left: 33%;
+            margin-bottom: 2%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.howitworks {
+  width: 80vw;
+  text-align: center;
+  height: fit-content;
+  padding-bottom: 30px;
+  margin-bottom: 70px;
+  border-radius: 6vw;
+
+  background: linear-gradient(
+    180deg,
+    rgba(186, 198, 242, 0.18) 0.01%,
+    #ffffff 0.02%,
+    rgba(172, 223, 251, 0.4) 97.4%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+
+  .studyfromhome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .o1 {
+      visibility: hidden;
+      position: absolute;
+    }
+    .SFdiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .attemptweeklychalanges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .t2 {
+      visibility: hidden;
+      position: absolute;
+    }
+    .AWdiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .enjoymentorship {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .t3 {
+      visibility: hidden;
+      position: absolute;
+    }
+    .EOdiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .HHWtext {
+    margin-bottom: 19%;
+    top: -20vh;
+    opacity: 0;
+  }
+  .studyonline {
+    margin-bottom: 19%;
+
+    display: flex;
+    justify-content: center;
+    .study {
+      width: 0%;
+      height: 100%;
+      opacity: 0;
+    }
+  }
+  .SFTCOYH {
+    text-align: center;
+    top: -12vh;
+    opacity: 0;
+    width: 80%;
+    margin-bottom: 13%;
+  }
+  .SFTCOYHtext {
+    width: 70%;
+    height: fit-content;
+    letter-spacing: 0.2vw;
+    line-height: 10%;
+    opacity: 0;
+    top: -7vh;
+    text-align: center;
+    margin-bottom: 19%;
+  }
+  .workathome {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 19%;
+    .work {
+      width: 0%;
+      opacity: 0;
+    }
+  }
+
+  .AWC {
+    width: 50%;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 8%;
+    transform: rotate(35deg);
+    top: -5%;
+    left: -30%;
+    opacity: 0;
+  }
+  .AWCtext {
+    width: 70%;
+    text-align: center;
+    margin-bottom: 19%;
+    opacity: 0;
+    top: -2%;
+    letter-spacing: 0.2vw;
+    line-height: 0%;
+  }
+
+  .webdesign {
+    margin-bottom: 19%;
+    display: flex;
+    justify-content: center;
+    .web {
+      width: 0%;
+      opacity: 0;
+    }
+  }
+
+  .EOOOM {
+    margin-bottom: 13%;
+    transform: rotate(35deg);
+    top: -4%;
+    left: -30%;
+    opacity: 0;
+  }
+  .EOOOMtext {
+    width: 70%;
+    text-align: center;
+    margin-bottom: 19%;
+
+    letter-spacing: 0.2vw;
+    line-height: 160%;
+
+    transform: rotate(-35deg);
+    top: -5%;
+    right: -30%;
+    opacity: 0;
+  }
+}
+
+.footer {
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  align-items: center;
+  .cantfindacourse {
+    visibility: hidden;
+    position: absolute;
+  }
+  .emailNbuttondiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .copyNsocials {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(104, 188, 253, 1);
+  }
+  .GITWU {
+    margin-bottom: 60px;
+    font-weight: normal;
+    left: -40vh;
+    opacity: 0;
+  }
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    right: -40vh;
+    opacity: 0;
+
+    input {
+      width: 90vw;
+      height: 8vw;
+      outline: hidden;
+      border: hidden;
+      margin-bottom: 12%;
+      border-bottom: 2px solid #555555;
+      padding-left: 4%;
+    }
+  }
+
+  .sendMessageButton {
+    height: 10vh;
+    background: rgba(104, 188, 253, 1);
+    color: white;
+    width: 90vw;
+    height: 8vh;
+    font-size: 5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4vw;
+    letter-spacing: 0.1vw;
+    word-spacing: 1vw;
+    margin-bottom: 40px;
+    left: -40vh;
+    opacity: 0;
+    &:hover {
+      background-color: rgb(73, 73, 73);
+      color: #68bcfd;
+    }
+  }
+
+  .contactAndlinks {
+    width: 80vw;
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    right: -40vh;
+    opacity: 0;
+
+    h2 {
+      font-weight: normal;
+      margin-bottom: 50px;
+    }
+
+    p {
+      letter-spacing: 0.2vw;
+      line-height: 200%;
+      font-weight: normal;
+      margin-bottom: 40px;
+    }
+  }
+
+  .links {
+    margin-bottom: 90px;
+    p {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      margin-bottom: 5%;
+
+      .path {
+        width: 5%;
+
+        margin-right: 5%;
+      }
+    }
+  }
+
+  .copyright {
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .END {
+    display: flex;
+    align-self: center;
+    width: 70vw;
+    justify-content: center;
+
+    .socials {
+      display: flex;
+      flex-direction: row;
+      width: 50vw;
+      justify-content: space-between;
+
+      .SC {
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        background-color: #c0c0c04f;
+        display: flex;
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 30%;
+        }
+      }
+      .LN {
+        img {
+          position: relative;
+        }
+      }
+    }
+  }
+}
+
+.hide {
+  visibility: hidden;
+  position: absolute;
+}
+.show {
+  visibility: visible;
+}
+
+.showhead {
+  visibility: visible;
+}
+.hidehead {
+  visibility: hidden;
+  position: absolute;
+}
+/* Rectangle 100 */

@@ -1,0 +1,960 @@
+.nav {
+  margin-bottom: 6px;
+  height: 450px;
+  padding-top: 2px;
+  padding-bottom: 70px;
+  width: 85vw;
+  background-color: white;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 5%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 14%;
+}
+
+.navigation .links {
+  visibility: hidden;
+}
+
+.navigation h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #000000;
+}
+
+.navigation .menu {
+  margin-top: -14vh;
+}
+
+.navigation .IC {
+  margin-top: -14vh;
+}
+
+.showhead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80vw;
+}
+
+.tNb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerImage {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  margin-right: -600px;
+}
+
+.header {
+  font-family: "Montserrat", sans-serif;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bolder;
+  letter-spacing: 2.4px;
+}
+
+.header span {
+  margin-left: -300vh;
+  font-size: 170%;
+  line-height: 130%;
+  font-weight: 800px;
+}
+
+.header .WYL {
+  width: 80vw;
+}
+
+.headerWriteup {
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 20%;
+  margin-bottom: 15%;
+}
+
+.headerWriteup span {
+  line-height: 115%;
+  word-spacing: 4.5px;
+  font-size: 110%;
+}
+
+.headerWriteup .ICO {
+  width: 80vw;
+  margin-right: -300vh;
+}
+
+.button {
+  opacity: 0;
+  margin-top: -12vh;
+  width: 90%;
+  height: 60px;
+  background-color: #36a6fc;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 12px;
+  word-spacing: 1vw;
+}
+
+.button span {
+  font-weight: bold;
+  letter-spacing: 0.3vw;
+}
+
+.button:hover {
+  background-color: #494949;
+  color: #68bcfd;
+}
+
+.career-brief {
+  width: 80vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 70px;
+  background-color: #dbb0ff;
+  border-radius: 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 8vh;
+}
+
+.career-brief h4 {
+  margin-top: 70px;
+  width: 80%;
+  font-size: 120%;
+  line-height: 150%;
+  font-weight: 700px;
+}
+
+.career-brief p {
+  font-weight: 400px;
+  font-size: 120%;
+  margin-top: 10%;
+  line-height: 210%;
+  letter-spacing: 0.2vw;
+  width: 70%;
+  text-align: center;
+}
+
+.career-brief .vv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.career-brief .vv .brief-vector {
+  margin-top: 10%;
+  visibility: hidden;
+  position: absolute;
+}
+
+.career-brief .vv .briefvector {
+  margin-top: 10%;
+  width: 90%;
+  height: 20%;
+}
+
+.forum-div {
+  margin-top: 3vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.forum-div .forumH {
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80vw;
+  margin-left: -90vh;
+  margin-bottom: 4px;
+}
+
+.forum-div .forumH h3 {
+  margin-bottom: 3vh;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.forum-div .forumH .text-writeup {
+  width: 80vw;
+  text-align: center;
+  color: #4b5d68;
+  line-height: 22px;
+  letter-spacing: 0.3vw;
+  font-size: 16px;
+  word-spacing: 2px;
+  margin-bottom: 80px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.forum-div .website-design {
+  width: 100vw;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 95px;
+  margin-left: -100vh;
+}
+
+.forum-div .website-design .background {
+  position: absolute;
+  height: 100%;
+  width: 83%;
+  margin-left: 14vw;
+}
+
+.forum-div .website-design .content {
+  height: 455px;
+  padding-bottom: 3vh;
+}
+
+.forum-div .website-design .svgNwriteup {
+  position: relative;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.forum-div .website-design .svgNwriteup .svg {
+  margin-top: 40px;
+  width: 150px;
+}
+
+.forum-div .website-design .svgNwriteup .svg .webdesign-vector {
+  height: 200px;
+  max-width: 100%;
+}
+
+.forum-div .website-design .svgNwriteup .writeup {
+  width: 160px;
+}
+
+.forum-div .website-design .svgNwriteup .writeup .websiteText {
+  font-size: 150%;
+  color: #212353;
+}
+
+.forum-div .website-design .svgNwriteup .writeup p {
+  margin-top: 17px;
+  color: #4b5d68;
+  letter-spacing: 0.2vw;
+  font-size: 100%;
+  margin-bottom: 16px;
+}
+
+.forum-div .website-design .svgNwriteup .writeup .coursesSmallDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 55vw;
+  margin-left: -12%;
+}
+
+.forum-div .website-design .svgNwriteup .writeup .coursesSmallDiv div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 24px;
+  color: #6e6f8b;
+  margin-right: 3vw;
+  margin-bottom: 5vw;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  height: 6vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  background-color: rgba(110, 111, 139, 0.2);
+  text-align: center;
+}
+
+.forum-div .website-design .instructorNameAndRating {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.forum-div .website-design .instructorNameAndRating .line {
+  position: relative;
+}
+
+.forum-div .website-design .instructorNameAndRating .profile-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100vw;
+  height: 40px;
+  margin-left: 18vw;
+  margin-top: 2.8%;
+}
+
+.forum-div .website-design .instructorNameAndRating .profile-rating .DisplayImage {
+  height: 100%;
+  width: 10%;
+}
+
+.forum-div .website-design .instructorNameAndRating .profile-rating .nameAndStar {
+  margin-left: 4px;
+  margin-right: 10px;
+}
+
+.forum-div .website-design .instructorNameAndRating .profile-rating .nameAndStar .name {
+  margin-bottom: 6px;
+}
+
+.forum-div .website-design .instructorNameAndRating .profile-rating .nameAndStar .number {
+  color: #04edcc;
+  margin-left: 5%;
+  font-style: normal;
+}
+
+.forum-div .website-design .instructorNameAndRating .progressBar {
+  margin-left: 5px;
+  max-width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.forum-div .website-design .instructorNameAndRating .progressBar .videoIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.forum-div .website-design .instructorNameAndRating .progressBar .videoIcon .videoText {
+  font-size: 2vw;
+  word-spacing: 3%;
+  margin-left: 2%;
+  color: #6e6f8b;
+}
+
+.forum-div .website-design .instructorNameAndRating .progressBar .progression {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+}
+
+.forum-div .website-design .instructorNameAndRating .progressBar .progression .slots {
+  font-size: 2vw;
+  margin-left: 33%;
+  margin-bottom: 2%;
+}
+
+.howitworks {
+  width: 80vw;
+  text-align: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 30px;
+  margin-bottom: 70px;
+  border-radius: 6vw;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.01%, rgba(186, 198, 242, 0.18)), color-stop(0.02%, #ffffff), color-stop(97.4%, rgba(172, 223, 251, 0.4)));
+  background: linear-gradient(180deg, rgba(186, 198, 242, 0.18) 0.01%, #ffffff 0.02%, rgba(172, 223, 251, 0.4) 97.4%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+}
+
+.howitworks .studyfromhome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.howitworks .studyfromhome .o1 {
+  visibility: hidden;
+  position: absolute;
+}
+
+.howitworks .studyfromhome .SFdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.howitworks .attemptweeklychalanges {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.howitworks .attemptweeklychalanges .t2 {
+  visibility: hidden;
+  position: absolute;
+}
+
+.howitworks .attemptweeklychalanges .AWdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.howitworks .enjoymentorship {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.howitworks .enjoymentorship .t3 {
+  visibility: hidden;
+  position: absolute;
+}
+
+.howitworks .enjoymentorship .EOdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.howitworks .HHWtext {
+  margin-bottom: 19%;
+  top: -20vh;
+  opacity: 0;
+}
+
+.howitworks .studyonline {
+  margin-bottom: 19%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.howitworks .studyonline .study {
+  width: 0%;
+  height: 100%;
+  opacity: 0;
+}
+
+.howitworks .SFTCOYH {
+  text-align: center;
+  top: -12vh;
+  opacity: 0;
+  width: 80%;
+  margin-bottom: 13%;
+}
+
+.howitworks .SFTCOYHtext {
+  width: 70%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  letter-spacing: 0.2vw;
+  line-height: 10%;
+  opacity: 0;
+  top: -7vh;
+  text-align: center;
+  margin-bottom: 19%;
+}
+
+.howitworks .workathome {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 19%;
+}
+
+.howitworks .workathome .work {
+  width: 0%;
+  opacity: 0;
+}
+
+.howitworks .AWC {
+  width: 50%;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 8%;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  top: -5%;
+  left: -30%;
+  opacity: 0;
+}
+
+.howitworks .AWCtext {
+  width: 70%;
+  text-align: center;
+  margin-bottom: 19%;
+  opacity: 0;
+  top: -2%;
+  letter-spacing: 0.2vw;
+  line-height: 0%;
+}
+
+.howitworks .webdesign {
+  margin-bottom: 19%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.howitworks .webdesign .web {
+  width: 0%;
+  opacity: 0;
+}
+
+.howitworks .EOOOM {
+  margin-bottom: 13%;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  top: -4%;
+  left: -30%;
+  opacity: 0;
+}
+
+.howitworks .EOOOMtext {
+  width: 70%;
+  text-align: center;
+  margin-bottom: 19%;
+  letter-spacing: 0.2vw;
+  line-height: 160%;
+  -webkit-transform: rotate(-35deg);
+          transform: rotate(-35deg);
+  top: -5%;
+  right: -30%;
+  opacity: 0;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .cantfindacourse {
+  visibility: hidden;
+  position: absolute;
+}
+
+.footer .emailNbuttondiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .copyNsocials {
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #68bcfd;
+}
+
+.footer .GITWU {
+  margin-bottom: 60px;
+  font-weight: normal;
+  left: -40vh;
+  opacity: 0;
+}
+
+.footer .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  right: -40vh;
+  opacity: 0;
+}
+
+.footer .inputs input {
+  width: 90vw;
+  height: 8vw;
+  outline: hidden;
+  border: hidden;
+  margin-bottom: 12%;
+  border-bottom: 2px solid #555555;
+  padding-left: 4%;
+}
+
+.footer .sendMessageButton {
+  height: 10vh;
+  background: #68bcfd;
+  color: white;
+  width: 90vw;
+  height: 8vh;
+  font-size: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 4vw;
+  letter-spacing: 0.1vw;
+  word-spacing: 1vw;
+  margin-bottom: 40px;
+  left: -40vh;
+  opacity: 0;
+}
+
+.footer .sendMessageButton:hover {
+  background-color: #494949;
+  color: #68bcfd;
+}
+
+.footer .contactAndlinks {
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  right: -40vh;
+  opacity: 0;
+}
+
+.footer .contactAndlinks h2 {
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+
+.footer .contactAndlinks p {
+  letter-spacing: 0.2vw;
+  line-height: 200%;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.footer .links {
+  margin-bottom: 90px;
+}
+
+.footer .links p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 5%;
+}
+
+.footer .links p .path {
+  width: 5%;
+  margin-right: 5%;
+}
+
+.footer .copyright {
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer .END {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  width: 70vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .END .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 50vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .END .socials .SC {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: #c0c0c04f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .END .socials .SC img {
+  width: 30%;
+}
+
+.footer .END .socials .LN img {
+  position: relative;
+}
+
+.hide {
+  visibility: hidden;
+  position: absolute;
+}
+
+.show {
+  visibility: visible;
+}
+
+.showhead {
+  visibility: visible;
+}
+
+.hidehead {
+  visibility: hidden;
+  position: absolute;
+}
+
+/* Rectangle 100 */
+/*# sourceMappingURL=home-page.css.map */

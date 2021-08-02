@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/inspirecoders.github.io/static/css/main.cc7ed97f.chunk.css",
+    "main.js": "/inspirecoders.github.io/static/js/main.81f16ddf.chunk.js",
+    "main.js.map": "/inspirecoders.github.io/static/js/main.81f16ddf.chunk.js.map",
+    "runtime-main.js": "/inspirecoders.github.io/static/js/runtime-main.affc0422.js",
+    "runtime-main.js.map": "/inspirecoders.github.io/static/js/runtime-main.affc0422.js.map",
+    "static/js/2.f33e23b1.chunk.js": "/inspirecoders.github.io/static/js/2.f33e23b1.chunk.js",
+    "static/js/2.f33e23b1.chunk.js.map": "/inspirecoders.github.io/static/js/2.f33e23b1.chunk.js.map",
+    "static/js/3.2142a13f.chunk.js": "/inspirecoders.github.io/static/js/3.2142a13f.chunk.js",
+    "static/js/3.2142a13f.chunk.js.map": "/inspirecoders.github.io/static/js/3.2142a13f.chunk.js.map",
+    "index.html": "/inspirecoders.github.io/index.html",
+    "static/css/main.cc7ed97f.chunk.css.map": "/inspirecoders.github.io/static/css/main.cc7ed97f.chunk.css.map",
+    "static/js/2.f33e23b1.chunk.js.LICENSE.txt": "/inspirecoders.github.io/static/js/2.f33e23b1.chunk.js.LICENSE.txt",
+    "static/media/1.11728f30.png": "/inspirecoders.github.io/static/media/1.11728f30.png",
+    "static/media/2.f1ecc813.png": "/inspirecoders.github.io/static/media/2.f1ecc813.png",
+    "static/media/3.369be679.png": "/inspirecoders.github.io/static/media/3.369be679.png",
+    "static/media/Studyonline.b743c0f0.png": "/inspirecoders.github.io/static/media/Studyonline.b743c0f0.png",
+    "static/media/Webdesign.65ad279a.png": "/inspirecoders.github.io/static/media/Webdesign.65ad279a.png",
+    "static/media/Workathome.a6523e88.png": "/inspirecoders.github.io/static/media/Workathome.a6523e88.png",
+    "static/media/briefVector.ddd4a9da.png": "/inspirecoders.github.io/static/media/briefVector.ddd4a9da.png",
+    "static/media/briefvectore.49ce630e.png": "/inspirecoders.github.io/static/media/briefvectore.49ce630e.png",
+    "static/media/cant.b8c5fb85.png": "/inspirecoders.github.io/static/media/cant.b8c5fb85.png",
+    "static/media/headerImage.6d8748af.png": "/inspirecoders.github.io/static/media/headerImage.6d8748af.png",
+    "static/media/websiteDesignVector.0f79992a.png": "/inspirecoders.github.io/static/media/websiteDesignVector.0f79992a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.affc0422.js",
+    "static/js/2.f33e23b1.chunk.js",
+    "static/css/main.cc7ed97f.chunk.css",
+    "static/js/main.81f16ddf.chunk.js"
+  ]
+}
